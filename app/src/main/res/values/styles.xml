@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <item name="actionBarStyle">@style/Widget.AppTheme.ActionBar.Solid</item>
+        <item name="android:actionBarStyle" tools:ignore="NewApi">@style/Widget.AppTheme.ActionBar.Solid</item>
+    </style>
+    
+    <style name="Widget.AppTheme.ActionBar.Solid" parent="Widget.AppCompat.Light.ActionBar.Solid">
+        <item name="background">@color/ab_background</item>
+        <item name="android:background">@color/ab_background</item>
+    </style>
+
+</resources>
